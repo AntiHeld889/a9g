@@ -66,8 +66,6 @@
 #define MICROPY_ENABLE_SCHEDULER            (1)
 #define MICROPY_SCHEDULER_DEPTH             (8)
 #define MICROPY_COMP_CONST                  (1)
-#define MICROPY_BEGIN_ATOMIC_SECTION()      SYS_EnterCriticalSection()
-#define MICROPY_END_ATOMIC_SECTION(state)   SYS_ExitCriticalSection(state)
 
 // MCU definition
 #define MP_ENDIANNESS_LITTLE                (1)
